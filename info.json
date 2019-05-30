@@ -1,0 +1,60 @@
+{
+	"info":[
+	        {"pid":"1001",
+				"pname":"趣多多 香浓巧克力味香脆曲奇饼干 285g/包",
+				"price":"13.70",
+				"imgsrc":"img/quqi101.jpg",
+	        	"imgarrr":["img/quqi101.jpg"],
+	        	"imgarrs":["img/quqi1011.jpg","img/quqi1012.jpg","img/quqi1013.jpg","img/quqi1014.jpg","img/quqi1015.jpg"]
+	        },
+	        {"pid":"1002",
+				"pname":"趣多多 啊咖啡味香脆曲奇 285g/包",
+				"price":"12.90",
+				"imgsrc":"img/quqi201.jpg",
+	        	"imgarrr":["img/quqi201.jpg","img/quqi202.jpg"],
+	        	"imgarrs":["img/quqi2011.jpg","img/quqi2012.jpg","img/quqi2013.jpg","img/quqi2014.jpg","img/quqi2015.jpg"]
+	        },
+	        {"pid":"1003",
+				"pname":"【元朗】香葱手工曲奇 无添加咸饼干休闲孕妇零食品",
+				"price":"36.80",
+				"imgsrc":"img/quqi301.jpg",
+	        	"imgarrr":["img/quqi301.jpg","img/quqi302.jpg"],
+	        	"imgarrs":["img/quqi3011.jpg","img/quqi3012.jpg","img/quqi3013.jpg","img/quqi3014.jpg","img/quqi3015.jpg","img/quqi3016.jpg"]
+	        },
+			{"pid":"1004",
+				"pname":"元朗蔓越莓曲奇饼干200gX3罐 无添加早餐下午茶进口原料休闲零食",
+				"price":"55.00",
+				"imgsrc":"img/quqi401.jpg",
+				"imgarrr":["img/quqi401.jpg","img/quqi402.jpg"],
+				"imgarrs":["img/quqi3011.jpg","img/quqi3012.jpg","img/quqi3013.jpg","img/quqi3014.jpg","img/quqi3015.jpg","img/quqi3016.jpg"]
+			},
+			{"pid":"1005",
+				"pname":"【元朗】巧克力果仁曲奇 进口原料手工饼干健康休闲零食 200gX2罐",
+				"price":"46.80",
+				"imgsrc":"img/quqi501.jpg",
+				"imgarrr":["img/quqi501.jpg","img/quqi502.jpg"],
+				"imgarrs":["img/quqi3011.jpg","img/quqi3012.jpg","img/quqi3013.jpg","img/quqi3014.jpg","img/quqi3015.jpg","img/quqi3016.jpg"]
+			},
+			{"pid":"1006",
+				"pname":"韩国进口零食品 lotte乐天白巧克力棒 奥利奥巧克力曲奇饼干 32g",
+				"price":"3.85",
+				"imgsrc":"img/quqi601.jpg",
+				"imgarrr":["img/quqi601.jpg","img/quqi602.jpg","img/quqi603.jpg"],
+				"imgarrs":["img/quqi6011.jpg","img/quqi6012.jpg","img/quqi6013.jpg","img/quqi6014.jpg"]
+			},
+			{"pid":"1007",
+				"pname":"日本进口新年礼物 布尔本Bourbon德式什锦奶油曲奇饼干礼盒60枚",
+				"price":"55.00",
+				"imgsrc":"img/quqi701.jpg",
+				"imgarrr":["img/quqi702.jpg","img/quqi702.jpg","img/quqi703.jpg","img/quqi704.jpg"],
+				"imgarrs":["img/quqi7011.jpg","img/quqi7012.jpg","img/quqi7013.jpg"]
+			},
+			{"pid":"1008",
+				"pname":"可以多Favoo纯手工DIY【法南乡村马卡龙】1个！无添加曲奇饼干",
+				"price":"3.90",
+				"imgsrc":"img/quqi801.jpg",
+				"imgarrr":["img/quqi801.jpg","img/quqi802.jpg","img/quqi803.jpg","img/quqi804.jpg"],
+				"imgarrs":["img/quqi8011.jpg","img/quqi8012.jpg","img/quqi8013.jpg","img/quqi8014s.jpg","img/quqi8015.jpg","img/quqi8016.jpg","img/quqi8017.jpg","img/quqi8018.jpg"]
+			}
+	      ]
+}

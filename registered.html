@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/registered.css" />
+	</head>
+	<body>
+		<div class="container">
+			<!--头部-->
+			<div class="wrap">
+				<div class="logo_con">
+					<div class="logo">
+						<a href="index.html"><img src="img/logo.png" alt="土购网" title="土购网"/></a>
+					</div>
+					<div class="text">
+						<em>欢迎登录</em>
+					</div>
+				</div>
+			</div>
+			<!--头部结束--->
+			<!--内容开始-->
+			<div class="content">
+				<div class="wrap con">
+					<div class="con_reg">
+						<div class="con_reg_l">
+							<!--target="_blank" action="login.html"-->
+							<form target="_blank" action="login.html">
+								<div class="rgetxt">
+									<em>账户</em>
+									<input type="text" name="username" class="users_name"/>
+									<font>*</font>
+									<p><span>请填写账户名</span></p>
+								</div>
+								<div class="rgetxt">
+									<em>设置密码</em>
+									<input type="password" name="password" class="users_name"/>
+									<font>*</font>
+									<p><span>长度为6到12个字符.</span></p>
+								</div>
+								<div class="rgetxt">
+									<em>确认密码</em>
+									<input type="password" name="repassword" class="users_name"/>
+									<font>*</font>
+								</div>
+								<div class="ready">
+									<input type="checkbox" class="cbox"/>
+									<font>
+										我已阅读并同意
+										<a href="">《土购网用户注册协议》</a>
+									</font>
+								</div>
+								<div class="rgbtn">
+									<input type="submit" name="btnEnter" class="rgtbut" value="立即注册" />
+								</div>
+							</form>
+						</div>
+						<div class="con_reg_r">
+							<div class="con_login">
+								<p>已拥土购账户</p>
+								<h3>即刻登录！</h3>
+								<p><a href="login.html">点击登录</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<!--内容结束-->
+			<!--底部-->
+			<div class="footer">
+				<div class="wrap footer_con">
+					<div class="con_left">
+						<img src="img/baiqiang.gif"/>
+						<img src="img/xns315.gif"/>
+					</div>
+					<div class="con_right">
+						<ul>
+							<li><a href="">关于我们</a></li>
+							<li><a href="">联系我们</a></li>
+							<li><a href="">隐私声明</a></li>
+							<li><a href="">服务条款</a></li>
+							<li><a href="">招贤纳士</a></li>
+							<li><a href="">商家入驻</a></li>
+						</ul>
+						<p>增值电信业务经营许可证赣B2-2012052  赣ICP备12003095-2号  Copyright 2013-2016  版权所有 tugoo.net</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				if(typeof(Storage) != "undefined"){
+					$("input:submit").click(function(){
+						 var userName = $("input[name='username']").val();
+						 var pwd = $("input[name='password']").val();
+						 var rpwd = $("input[name='repassword']").val();
+						 console.log(pwd)
+						 //用户名正则由数字和字母组成
+						var reg_name=/^[0-9a-zA-Z]*$/;
+						//用户密码正则：长度10-16，由数字，大小写字母组成
+						var reg_psd=/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[^]{10,16}$/;
+						//判断用户名
+						if(userName==""||reg_name.test(userName)==false){
+							alert("用户名不合法");
+							return false;
+						}
+						//判断密码
+						 if(pwd==""||reg_psd.test(pwd)==false){
+							alert("密码格式不正确");
+							return false;
+						}
+						 //判断两次密码不一致
+						 if(pwd!=rpwd){
+							alert("两次密码不一致");
+							return false;
+						}
+						//创建setItem(key,value) 参数必需，分别是storage的key和value
+						var obj ={};
+						obj.name = userName;
+						obj.password= pwd;
+						obj.repassword=rpwd;
+						console.log(obj);
+						localStorage.setItem(userName,JSON.stringify(obj));
+						console.log(localStorage);
+						var jsonDate = JSON.parse(localStorage.getItem(userName))
+						console.log(jsonDate);
+						console.log(localStorage);
+						for(var i in jsonDate){
+							console.log(i+":"+jsonDate[i]);
+						}
+						alert("注册成功，请登录")
+						window.open("login.html","_blank");
+						 
+					})
+				}else{
+					alert("浏览器不支持web存储")
+				}
+			})
+		</script>
+	</body>
+</html>

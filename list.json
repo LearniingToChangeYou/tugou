@@ -1,0 +1,12 @@
+{
+	"data":[
+		{"pid":1001,"name":"趣多多 香浓巧克力味香脆曲奇饼干 285g/包","price":"¥13.70","guige":"/包","imgsrc":"img/grand01.jpg","cuximg":"img/cuxiao.png"},
+		{"pid":1002,"name":"趣多多 啊咖啡味香脆曲奇 285g/包","price":"¥12.90","guige":"/包","imgsrc":"img/grand02.jpg","cuximg":"img/cuxiao.png"},
+		{"pid":1003,"name":"【元朗】香葱手工曲奇 无添加咸饼干休闲孕妇零食品","price":"¥36.80","guige":"/件","imgsrc":"img/grand03.jpg","cuximg":"img/cuxiao.png"},
+		{"pid":1004,"name":"元朗蔓越莓曲奇饼干200gX3罐 无添加早餐下午茶进口原料休闲零","price":"¥55.00","guige":"/件","imgsrc":"img/grand04.jpg","cuximg":"img/cuxiao.png"},
+		{"pid":1005,"name":"【元朗】巧克力果仁曲奇 进口原料手工饼干健康休闲零食 200gX","price":"¥46.80","guige":"/件","imgsrc":"img/grand05.jpg","cuximg":"img/cuxiao.png"},
+		{"pid":1006,"name":"韩国进口零食品 lotte乐天白巧克力棒 奥利奥巧克力曲奇饼干 3","price":"¥3.80","guige":"/盒","imgsrc":"img/grand06.jpg","cuximg":"img/cuxiao.png"},
+		{"pid":1007,"name":"日本进口新年礼物 布尔本Bourbon德式什锦奶油曲奇饼干礼盒60枚","price":"¥55.00","guige":"/盒","imgsrc":"img/grand07.jpg","cuximg":"img/cuxiao.png"},
+		{"pid":1008,"name":"可以多Favoo纯手工DIY【法南乡村马卡龙】1个！无添加曲奇饼干","price":"¥3.90","guige":"/个","imgsrc":"img/grand08.jpg","cuximg":"img/cuxiao.png"}
+	]
+}
